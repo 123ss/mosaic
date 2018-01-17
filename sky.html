@@ -31,11 +31,10 @@
 					var r = data[index];
 					var g = data[index + 1];
 					var b = data[index + 2];
-					
-					console.log(r);
+					var color = "rgb(" + r + ", " + g + ", " + b + ")";
 
 					var square = document.createElement('div');
-					square.style.color = `rgb(${r}, ${g}, ${b})`;
+					square.style.color = color;
 					document.body.appendChild(square);
 				}
 			}
