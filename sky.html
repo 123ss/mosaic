@@ -33,8 +33,14 @@
 					var b = data[index + 2];
 					var color = "rgb(" + r + ", " + g + ", " + b + ")";
 
-					var square = document.createElement('div');
-					square.style.color = color;
+					var square = document.createElement('p');
+					square.style.width = "10px";
+					square.style.height = "10px";
+					square.style.margin = "0px";
+					square.style.cssFloat = "left";
+					
+					square.style.backgroundColor = color;
+					
 					document.body.appendChild(square);
 				}
 			}
