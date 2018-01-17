@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+}
+p {
+	width: 25px;
+	height: 25px;
+	margin: 0px;
+	float: left;
+}
+.black {
+	background-color: black;
+}
+.yellow {
+	background-color: rgb(245, 190, 63);
+}
+.red {
+	background-color: rgb(184, 44, 53);
+}
+.blue {
+	background-color: rgb(66, 104, 153);
+}
+.green {
+	background-color: rgb(9, 106, 63);
+}
+.brown {
+	background-color: rgb(98, 71, 59);
+}
