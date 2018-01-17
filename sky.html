@@ -34,13 +34,13 @@
 			bottom: 0;
 		}
 		.hidden {
-			visibility: hidden;
+			display: none;
 		}
-		span:hover {
-			visibility: visible;	
+		#hint1:hover {
+			display: inline;	
 		}
-		a:hover {
-			visibility: visible;	
+		#hint2:hover {
+			display: inline;	
 		}
 	</style>
 </head>
@@ -54,9 +54,9 @@
 	</div>
 	
 	<div id="instr">
-		<p class="instr">Resize the browser window horizontally to find the "hidden" image</p>
-		<p class="instr">Hint 1: <span class="hidden">The image is about 790 pixels wide</span></p>
-		<p class="instr">Hint 2: <a class="hidden" href="image.jpg">Original image</a></p>
+		<p>Resize the browser window horizontally to find the "hidden" image</p>
+		<p id="hint1">Hint 1: <span class="hidden">The image is about 790 pixels wide</span></p>
+		<p id="hint2">Hint 2: <a class="hidden" href="image.jpg">Original image</a></p>
 	</div>
 	
 	<script type="text/javascript">
