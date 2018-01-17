@@ -6,6 +6,7 @@ p {
 	height: 25px;
 	margin: 0px;
 	float: left;
+	border: 1px solid black;
 }
 .black {
 	background-color: black;
