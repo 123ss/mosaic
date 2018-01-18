@@ -78,6 +78,7 @@
 			var data = imageData.data;
 
 			var pixels = 4;
+			var size = pixels + "px";
 			for (var y = 0; y < canvasHeight; y += pixels) {
 				for (var x = 0; x < canvasWidth; x += pixels) {
 					var index = (y * canvasWidth + x) * 4;
@@ -88,8 +89,8 @@
 					var color = "rgb(" + r + ", " + g + ", " + b + ")";
 
 					var square = document.createElement('p');
-					square.style.width = "8px";
-					square.style.height = "8px";
+					square.style.width = size;
+					square.style.height = size;
 					square.style.margin = "0px";
 					square.style.cssFloat = "left";
 					
